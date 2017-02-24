@@ -50,10 +50,9 @@ public class MyUtils {
 	 * @return 生成指定长度的数字字符串
 	 */
 	public static String getRandomNum(int length){
-		StringBuilder sb=new StringBuilder();
-        Random rand=new Random();
-        for(int i=0;i<length;i++)
-        {
+		StringBuilder sb = new StringBuilder();
+        Random rand = new Random();
+        for(int i=0; i<length; i++){
             sb.append(rand.nextInt(10));
         }
         return sb.toString();
