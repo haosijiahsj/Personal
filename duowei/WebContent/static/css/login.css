@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+html, body{
+	height: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.header h1{
+	text-align: center; 
+	margin-top: 10px;
+	color:#3cc51f;
+}
+.btn-login-box{
+	padding: 20px 10px 0 10px;
+}
+.tips-box a{
+	color: red;
+}
+.bg-success{
+	background-color: #3cc51f;
+}
