@@ -7,26 +7,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <title>多维-登录</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/weui/css/weui.min.css">
-<style>
-	*{margin: 0;padding: 0;}
-	html,body{height: 100%;}
-</style>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/login.css">
 </head>
 <body ontouchstart>
-<div>
-   <h1 style="text-align: center; margin-top: 10px; color:#3cc51f;">Duo Wei</h1>
+<div class="weui-tab">
+<div class="header">
+   <h1>Duo Wei</h1>
 </div>
-<div class="container" style="">
+<div class="container">
 <div class="weui-cells weui-cells__form">
 <div class="weui-cell weui-cell_vcode">
     <div class="weui-cell__hd">
        <label class="weui-label">手机号</label>
     </div>
     <div class="weui-cell__bd">
-       <input class="weui-input" type="tel" placeholder="请输入手机号">
+       <input class="weui-input inp-tel" type="tel" placeholder="请输入手机号">
     </div>
     <div class="weui-cell__ft">
-        <button id="btn-get-code" class="weui-vcode-btn">获取验证码</button>
+        <button class="weui-vcode-btn btn-get-code">获取验证码</button>
     </div>
 </div>
 <div class="weui-cell">
@@ -34,7 +32,7 @@
        <label class="weui-label">验证码</label>
     </div>
     <div class="weui-cell__bd">
-       <input class="weui-input" type="text" placeholder="验证码">
+       <input class="weui-input inp-vcode" type="text" placeholder="验证码">
     </div>
     <div class="weui-cell__ft">
     <a href="javascript:void(0)" class="weui-cell_link" style="font-size: 12px; color: red;">没有收到？</a>
@@ -42,16 +40,17 @@
 </div>
 </div>
 <div class="weui-cells__tips">请在上方输入相关信息以登录</div>
-<div class="btn-box" style="padding: 0 10px 0 10px;">
-	<button class="weui-btn weui-btn_primary" style="margin-top: 20px;">登录</button>
+<div class="btn-login-box">
+	<button class="weui-btn weui-btn_primary btn-login">登录</button>
 </div>
-<div class="weui-cells__tips">点击登录表示您已同意<a href="javascript:void(0)" style="color: red;" class="weui-cell_link">平台使用协议</a>
+<div class="weui-cells__tips tips-box">
+	点击登录表示您已同意
+	<a href="javascript:void(0)" class="weui-cell_link a-sys-use">平台使用协议</a>
 </div>
 </div>
 
-<!-- 这里为何出现了滚动条？？？ 使用position：fixed 有问题 -->
 <!-- tab导航栏 -->
-<div class="weui-tab">
+<!-- 导航栏weui-tab必须吧网页所有的东西包裹起来？？？ -->
     <div class="weui-tabbar">
         <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
             <img src="static/img/icon_nav_button.png" alt="" class="weui-tabbar__icon">
