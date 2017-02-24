@@ -10,10 +10,13 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/login.css">
 </head>
 <body ontouchstart>
-<div class="weui-tab">
+
+<!-- header开始 -->
 <div class="header">
    <h1>Duo Wei</h1>
 </div>
+<!-- header结束 -->
+<!-- container开始 -->
 <div class="container">
 <div class="weui-cells weui-cells__form">
 <div class="weui-cell weui-cell_vcode">
@@ -48,34 +51,15 @@
 	<a href="javascript:void(0)" class="weui-cell_link a-sys-use">平台使用协议</a>
 </div>
 </div>
-
-<!-- tab导航栏 -->
-<!-- 导航栏weui-tab必须吧网页所有的东西包裹起来？？？ -->
-    <div class="weui-tabbar">
-        <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
-            <img src="static/img/icon_nav_button.png" alt="" class="weui-tabbar__icon">
-            <p class="weui-tabbar__label">微信</p>
-        </a>
-        <a href="javascript:;" class="weui-tabbar__item">
-            <img src="static/img/icon_nav_msg.png" alt="" class="weui-tabbar__icon">
-            <p class="weui-tabbar__label">通讯录</p>
-        </a>
-        <a href="javascript:;" class="weui-tabbar__item">
-            <img src="static/img/icon_nav_article.png" alt="" class="weui-tabbar__icon">
-            <p class="weui-tabbar__label">发现</p>
-        </a>
-        <a href="javascript:;" class="weui-tabbar__item">
-            <img src="static/img/icon_nav_cell.png" alt="" class="weui-tabbar__icon">
-            <p class="weui-tabbar__label">我</p>
-        </a>
-    </div>
-</div>
-
-<!-- 最后引用js文件 -->
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery-2.1.4.js"></script>
+<!-- container结束 -->
+<!-- footer开始 -->
+<jsp:include page="public/footer.html"></jsp:include>
+<!-- footer结束 -->
+<!-- 引用js文件开始 -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/fastclick.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/weui/js/weui.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/weui/js/jquery-weui.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/login.js"></script>
+<!-- 引用js文件结束 -->
 </body>
 </html>

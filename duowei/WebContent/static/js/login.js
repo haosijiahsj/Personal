@@ -2,9 +2,11 @@
  * 
  */
 $(document).ready(function(){
-		
-	$(".btn-get-code").click(function(){
-		
+	//使用快速点击下厨点击的300毫秒延迟
+	FastClick.attach(document.body);
+	
+	//获取验证码按钮点击事件
+	$(".btn-get-code").click(function(){		
 		var val = $(".inp-tel").val();
 		var regex = /^1\d{10}$/;
 		if(!regex.test(val)){
@@ -23,6 +25,7 @@ $(document).ready(function(){
 		
 	});
 	
+	//登录按钮点击事件
 	$(".btn-login").click(function(){
 		var vcode = $(".inp-vcode").val();
 		var tel = $(".inp-tel").val();
@@ -41,6 +44,7 @@ $(document).ready(function(){
 		
 	});
 	
+	//平台使用协议链接按钮点击事件
 	$(".a-sys-use").click(function(){
 		weui.alert("平台使用协议", {title: "平台使用协议"});
 	});
