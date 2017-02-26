@@ -50,7 +50,7 @@ public class MyWechat extends WechatSupport {
 	protected void onText() {
 		String content = super.wechatRequest.getContent().trim();
 		System.out.println(content);
-		responseText("你好，欢迎使用多维家政管理平台微信公众号");
+		responseText("您好，欢迎使用多维家政服务平台微信公众号");
 	}
 
 	@Override

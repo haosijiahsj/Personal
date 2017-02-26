@@ -8,9 +8,16 @@
 <title>多维-登录</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/weui/css/weui.min.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/login.css">
+<style>
+.tab-menu{
+	bottom: 0;
+	position: fixed;
+	width:100%;
+}
+</style>
 </head>
 <body ontouchstart>
-<div class="weui-tab">
+
 <div class="header">
    <h1>Duo Wei</h1>
 </div>
@@ -48,7 +55,7 @@
 	<a href="javascript:void(0)" class="weui-cell_link a-sys-use">平台使用协议</a>
 </div>
 </div>
-
+<div class="weui-tab tab-menu">
 <!-- tab导航栏 -->
 <!-- 导航栏weui-tab必须吧网页所有的东西包裹起来？？？ -->
     <div class="weui-tabbar">
@@ -72,10 +79,9 @@
 </div>
 
 <!-- 最后引用js文件 -->
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/fastclick.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/weui/js/weui.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/weui/js/jquery-weui.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/login.js"></script>
 </body>
 </html>

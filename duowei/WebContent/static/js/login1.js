@@ -1,8 +1,6 @@
-/**
- * 
- */
+
 $(document).ready(function(){
-	//使用快速点击下厨点击的300毫秒延迟
+	//使用快速点击消除点击的300毫秒延迟
 	FastClick.attach(document.body);
 	//获取验证码按钮点击事件
 	//$(document).on("click", ".btn-get-code", function(){});
@@ -42,14 +40,14 @@ $(document).ready(function(){
 		
 		weui.alert("登录");
 		//使用ajax调用后台controller登录代码
-		
+	
 	});
 	
 	//平台使用协议链接按钮点击事件
 	$(".a-sys-use").click(function(){
 		weui.alert("平台使用协议", {title: "平台使用协议"});
 	});
-	
+
 });
 
 //获取验证码的时间倒数
