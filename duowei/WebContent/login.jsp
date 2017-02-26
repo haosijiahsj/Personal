@@ -35,7 +35,7 @@
        <label class="weui-label">验证码</label>
     </div>
     <div class="weui-cell__bd">
-       <input class="weui-input inp-vcode" type="text" placeholder="验证码">
+       <input class="weui-input inp-vcode" type="number" placeholder="验证码">
     </div>
     <div class="weui-cell__ft">
     <a href="javascript:void(0)" class="weui-cell_link" style="font-size: 12px; color: red;">没有收到？</a>
@@ -48,7 +48,7 @@
 </div>
 <div class="weui-cells__tips tips-box">
 	点击登录表示您已同意
-	<a href="javascript:void(0)" class="weui-cell_link a-sys-use">平台使用协议</a>
+	<a href="javascript:void(0)" class="weui-cell_link a-sys-use">《平台使用协议》</a>
 </div>
 </div>
 <!-- container结束 -->
@@ -56,6 +56,7 @@
 <jsp:include page="public/footer.html"></jsp:include>
 <!-- footer结束 -->
 <!-- 引用js文件开始 -->
+<%-- <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/zepto.js"></script> --%>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/fastclick.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/weui/js/weui.min.js"></script>
