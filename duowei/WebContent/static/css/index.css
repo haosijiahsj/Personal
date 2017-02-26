@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+.header h1{
+	text-align: center; 
+	color:#3cc51f;
+}
+.container{
+	
+}
+.footer{
+	bottom: 0;
+	position: fixed;
+	width:100%;
+}
+.item-on{
+	display: block;
+}
+.item-off{
+	display: none;
+}
+.loading-font{
+	
+}
