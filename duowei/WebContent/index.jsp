@@ -6,8 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <title>多维</title>
+<!-- 引入css文件开始 -->
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/weui/css/weui.min.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/index.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="header">
@@ -28,6 +31,8 @@
 	<div class="nav-tab item-off">
 		<jsp:include page="personal.jsp"></jsp:include>
 	</div> --%>
+	<i style="color: red;" class="fa fa-home fa-fw fa-2x"></i>
+	<i class="fa fa-spinner fa-pulse fa-2x"></i>
 </div>
 
 <div class="footer">
@@ -36,23 +41,19 @@
 <!-- 导航栏weui-tab必须吧网页所有的东西包裹起来？？？ -->
     <div class="weui-tabbar">
         <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
-            <div class="item-img item-off"><img src="static/img/index_home.png" alt="" class="weui-tabbar__icon"></div>
-            <div class="item-img1"><img src="static/img/index_home1.png" alt="" class="weui-tabbar__icon"></div>
+        	<img src="static/img/首页.png" alt="" class="weui-tabbar__icon">
             <p class="weui-tabbar__label">主页</p>
         </a>
         <a href="javascript:;" class="weui-tabbar__item">
-            <div class="item-img"><img src="static/img/index_order.png" alt="" class="weui-tabbar__icon"></div>
-            <div class="item-img1 item-off"><img src="static/img/index_order1.png" alt="" class="weui-tabbar__icon"></div>
+            <img src="static/img/订单.png" alt="" class="weui-tabbar__icon">
             <p class="weui-tabbar__label">订单</p>
         </a>
         <a href="javascript:;" class="weui-tabbar__item">
-            <div class="item-img"><img src="static/img/index_vip.png" alt="" class="weui-tabbar__icon"></div>
-            <div class="item-img1 item-off"><img src="static/img/index_vip1.png" alt="" class="weui-tabbar__icon"></div>
+            <img src="static/img/皇冠.png" alt="" class="weui-tabbar__icon">
             <p class="weui-tabbar__label">VIP</p>
         </a>
         <a href="javascript:;" class="weui-tabbar__item">
-            <div class="item-img"><img src="static/img/index_myself.png" alt="" class="weui-tabbar__icon"></div>
-            <div class="item-img1 item-off"><img src="static/img/index_myself1.png" alt="" class="weui-tabbar__icon"></div>
+            <img src="static/img/用户.png" alt="" class="weui-tabbar__icon">
             <p class="weui-tabbar__label">个人</p>
         </a>
     </div>

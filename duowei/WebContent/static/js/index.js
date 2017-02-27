@@ -7,10 +7,10 @@ $(document).ready(function(){
 	//用于切换主页内容	
 	$(".weui-tabbar__item").each(function(){
 		$(this).click(function(){
+			window.onhashchange = function(){}
 			$(this).addClass("weui-bar__item_on");
-			$(this).siblings().removeClass("weui-bar__item_on");
-			//$(this).children(".item-img").trigger().siblings().trigger();
-			//$(this).children(".item-img1").trigger().siblings().trigger();
+			$(this).siblings().removeClass("weui-bar__item_on");			
+			//为页面链接添加hash值
 			var index = $(this).index();
 			//$(".nav-tab").eq(index).show().siblings().hide();
 			location.hash = "#!"+index;
@@ -19,7 +19,7 @@ $(document).ready(function(){
 	});
 	
 	//hash值改变事件
-	window.onhashchange = function(){}
+	
 	
 });
 
@@ -67,11 +67,14 @@ function loadPage(url){
 	    },
 	    complete: function () {//完成响应
 	        loading.hide();
-	        //weui.toast("页面加载完成", 2000);
 	    },
 	    error: function (data) {
 	        
 	    }
 	});
+}
+
+function changeImgSrc(obj, src){
+	$(obj).attr("src", src);
 }
 
