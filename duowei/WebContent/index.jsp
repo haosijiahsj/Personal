@@ -31,29 +31,32 @@
 	<div class="nav-tab item-off">
 		<jsp:include page="personal.jsp"></jsp:include>
 	</div> --%>
-	<i style="color: red;" class="fa fa-home fa-fw fa-2x"></i>
-	<i class="fa fa-spinner fa-pulse fa-2x"></i>
 </div>
 
+<!-- 使用一个footer手动设置该tabbar位置为fixed -->
 <div class="footer">
 <div class="weui-tab">
 <!-- tab导航栏 -->
-<!-- 导航栏weui-tab必须吧网页所有的东西包裹起来？？？ -->
+<!-- 底部图标实现使用开源图标库font-awesome -->
     <div class="weui-tabbar">
         <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
-        	<img src="static/img/首页.png" alt="" class="weui-tabbar__icon">
+        	<!-- <img src="static/img/首页.png" alt="" class="weui-tabbar__icon"> -->
+        	<div class="weui-tabbar__icon"><i class="fa fa-square-o"></i></div>        	
             <p class="weui-tabbar__label">主页</p>
         </a>
         <a href="javascript:;" class="weui-tabbar__item">
-            <img src="static/img/订单.png" alt="" class="weui-tabbar__icon">
+            <!-- <img src="static/img/订单.png" alt="" class="weui-tabbar__icon"> -->
+            <div class="weui-tabbar__icon"><i class="fa fa-lemon-o"></i></div> 
             <p class="weui-tabbar__label">订单</p>
         </a>
         <a href="javascript:;" class="weui-tabbar__item">
-            <img src="static/img/皇冠.png" alt="" class="weui-tabbar__icon">
+            <!-- <img src="static/img/皇冠.png" alt="" class="weui-tabbar__icon"> -->
+            <div class="weui-tabbar__icon"><i class="fa fa-sun-o"></i></div> 
             <p class="weui-tabbar__label">VIP</p>
         </a>
         <a href="javascript:;" class="weui-tabbar__item">
-            <img src="static/img/用户.png" alt="" class="weui-tabbar__icon">
+            <!-- <img src="static/img/用户.png" alt="" class="weui-tabbar__icon"> -->
+            <div class="weui-tabbar__icon"><i class="fa fa-user-o"></i></div> 
             <p class="weui-tabbar__label">个人</p>
         </a>
     </div>

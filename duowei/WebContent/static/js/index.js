@@ -7,7 +7,12 @@ $(document).ready(function(){
 	//用于切换主页内容	
 	$(".weui-tabbar__item").each(function(){
 		$(this).click(function(){
-			window.onhashchange = function(){}
+			//window.onhashchange = function(){}
+			//如果当前已经是在点击的选项的页面，则不用重新请求，节省资源
+			var isCurPage = $(this).hasClass("weui-bar__item_on");
+			if(isCurPage){
+				return;
+			}
 			$(this).addClass("weui-bar__item_on");
 			$(this).siblings().removeClass("weui-bar__item_on");			
 			//为页面链接添加hash值
@@ -23,11 +28,13 @@ $(document).ready(function(){
 	
 });
 
+//进入页面前的初始化
 function init(){
 	location.hash = "#!0";
 	loadPage("duowei.jsp");
 }
 
+//切换页面
 function tabPage(){
 	var hash = location.hash;
 	switch(hash.substring(2)){
