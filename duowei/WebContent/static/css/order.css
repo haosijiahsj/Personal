@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+/*#e6454a此颜色保留 */
+.weui-navbar{
+	
+}
+
+.weui-navbar__item{
+	font-size: 14px;
+}
+.weui-bar__item_on{
+	color: #e6454a;
+	border-bottom: 2px solid #e6454a;
+}

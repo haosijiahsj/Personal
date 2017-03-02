@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+/*#e6454a此颜色保留 */
+.header-box{
+	height: 90px;
+	background-color: #e6454a;
+	color: white;
+	position: relative;
+}
+
+.icon-box{
+	position: absolute;
+	top: 50%;
+	padding-left: 25px;
+	transform: translate(0, -50%);
+}
+
+.face-box{
+	float: left;
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	border: 1px solid #ddd;
+}
+.face-box img{
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+}
+.name-box{
+	float: left;
+	margin-left: 18px;
+	font-size: 14px;
+	line-height: 50px;
+	
+}
+
+.weui-cell__bd p{
+	font-size: 14px;
+}
+
+.ft-tips-box{
+	font-size: 12px;
+}
+.ft-tips-num-box{
+	color: #e6454a;
+}
+.logout-box{
+	padding: 40px 10px 0 10px;
+}
+.weui-cell__hd{
+	width: 30px;
+}
+.weui-cell__hd .fa{
+	font-size: 14px;
+	color: #e6454a;
+}
+.logout-box button{
+	border: 1px solid #e6454a;
+	color: #e6454a;
+}

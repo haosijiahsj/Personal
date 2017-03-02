@@ -9,17 +9,17 @@ $(document).ready(function(){
 		$(this).click(function(){
 			//window.onhashchange = function(){}
 			//如果当前已经是在点击的选项的页面，则不用重新请求，节省资源
-			var isCurPage = $(this).hasClass("weui-bar__item_on");
+			var isCurPage = $(this).hasClass("item_on");
 			if(isCurPage){
 				return;
 			}
-			$(this).addClass("weui-bar__item_on");
-			$(this).siblings().removeClass("weui-bar__item_on");			
+			$(this).addClass("item_on");
+			$(this).siblings().removeClass("item_on");			
 			//为页面链接添加hash值
 			var index = $(this).index();
 			//$(".nav-tab").eq(index).show().siblings().hide();
 			location.hash = "#!"+index;
-			tabPage();
+			tabPage(""+index);
 		});
 	});
 	
@@ -30,14 +30,18 @@ $(document).ready(function(){
 
 //进入页面前的初始化
 function init(){
-	location.hash = "#!0";
-	loadPage("duowei.jsp");
+	//在页面刷新时，仍然留在当前页面中
+	var hash = location.hash;
+	var val = hash.substring(2);
+	tabPage(val);
+	$(".weui-tabbar__item").eq(val).addClass("item_on");
+	$(".weui-tabbar__item").eq(val).siblings().removeClass("item_on");	
+
 }
 
 //切换页面
-function tabPage(){
-	var hash = location.hash;
-	switch(hash.substring(2)){
+function tabPage(val){
+	switch(val){
 	case '0': 
 		loadPage("duowei.jsp");
 		break;
@@ -65,7 +69,7 @@ function loadPage(url){
 	    dataType: "html",
 	    url: url,
 	    beforeSend: function () {
-	        loading = weui.loading('加载页面中...', {
+	        loading = weui.loading('页面加载中...', {
 	            className: 'loading-font'
 	        });
 	    },

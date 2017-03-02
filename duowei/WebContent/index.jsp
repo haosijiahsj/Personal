@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<title>多维</title>
+<title></title>
 <!-- 引入css文件开始 -->
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/weui/css/weui.min.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/index.css">
@@ -39,10 +39,10 @@
 <!-- tab导航栏 -->
 <!-- 底部图标实现使用开源图标库font-awesome -->
     <div class="weui-tabbar">
-        <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
+        <a href="javascript:;" class="weui-tabbar__item item_on">
         	<!-- <img src="static/img/首页.png" alt="" class="weui-tabbar__icon"> -->
         	<div class="weui-tabbar__icon"><i class="fa fa-square-o"></i></div>        	
-            <p class="weui-tabbar__label">主页</p>
+            <p class="weui-tabbar__label">多维</p>
         </a>
         <a href="javascript:;" class="weui-tabbar__item">
             <!-- <img src="static/img/订单.png" alt="" class="weui-tabbar__icon"> -->

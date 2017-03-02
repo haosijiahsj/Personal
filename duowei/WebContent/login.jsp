@@ -44,7 +44,7 @@
 </div>
 <div class="weui-cells__tips">请在上方输入相关信息以登录</div>
 <div class="btn-login-box">
-	<button class="weui-btn weui-btn_primary btn-login">登录</button>
+	<button class="weui-btn weui-btn_default btn-login">登录</button>
 </div>
 <div class="weui-cells__tips tips-box">
 	点击登录表示您已同意
@@ -56,7 +56,6 @@
 <jsp:include page="public/footer.html"></jsp:include>
 <!-- footer结束 -->
 <!-- 引用js文件开始 -->
-<%-- <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/zepto.js"></script> --%>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/fastclick.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/weui/js/weui.min.js"></script>

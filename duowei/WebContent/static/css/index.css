@@ -1,9 +1,5 @@
 @CHARSET "UTF-8";
 
-.header h1{
-	text-align: center; 
-	color:#3cc51f;
-}
 .container{
 	
 }
@@ -12,9 +8,11 @@
 	position: fixed;
 	width:100%;
 }
-.item-on{
-	display: block;
+.item_on .weui-tabbar__icon>i, .item_on .weui-tabbar__label{
+	color: #e6454a;
 }
+
+
 .item-off{
 	display: none;
 }

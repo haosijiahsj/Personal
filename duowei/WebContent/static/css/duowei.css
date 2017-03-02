@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+/*#e6454a此颜色保留 */
+.swiper-container{
+	width: 100%;
+	height: 90px;
+}
+.blue-slide {
+	background: #4390EE;
+}
+.red-slide {
+	background: #CA4040;
+}
+.orange-slide {
+	background: #FF8604;
+}
+.swiper-slide {
+	line-height: 300px;
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+}
