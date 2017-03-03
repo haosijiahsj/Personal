@@ -13,7 +13,11 @@
 
 <!-- header开始 -->
 <div class="header">
-   <h1>Duo Wei</h1>
+   	<div class="header-box">
+		<div class="icon-box">
+			<div class="name-box">多维家政服务平台登录</div>
+		</div>
+	</div>
 </div>
 <!-- header结束 -->
 <!-- container开始 -->
@@ -21,7 +25,7 @@
 <div class="weui-cells weui-cells__form">
 <div class="weui-cell weui-cell_vcode">
     <div class="weui-cell__hd">
-       <label class="weui-label">手机号</label>
+       <label class="weui-label" style="font-size: 14px;">手机号</label>
     </div>
     <div class="weui-cell__bd">
        <input class="weui-input inp-tel" type="tel" placeholder="请输入手机号">
@@ -32,19 +36,19 @@
 </div>
 <div class="weui-cell">
 	<div class="weui-cell__hd">
-       <label class="weui-label">验证码</label>
+       <label class="weui-label" style="font-size: 14px;">验证码</label>
     </div>
     <div class="weui-cell__bd">
        <input class="weui-input inp-vcode" type="number" placeholder="验证码">
     </div>
     <div class="weui-cell__ft">
-    <a href="javascript:void(0)" class="weui-cell_link" style="font-size: 12px; color: red;">没有收到？</a>
+    <a href="javascript:void(0)" class="weui-cell_link" style="font-size: 12px;">没有收到？</a>
     </div>
 </div>
 </div>
 <div class="weui-cells__tips">请在上方输入相关信息以登录</div>
 <div class="btn-login-box">
-	<button class="weui-btn weui-btn_default btn-login">登录</button>
+	<button class="weui-btn weui-btn_plain-primary btn-login">绑定手机号以登录</button>
 </div>
 <div class="weui-cells__tips tips-box">
 	点击登录表示您已同意

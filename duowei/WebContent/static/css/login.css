@@ -10,19 +10,41 @@ html, body{
 	text-align: center; 
 	color:#e6454a;
 }
+
+.header-box{
+	height: 50px;
+	border: 1px solid #ddd;
+	border-left: 3px solid #e6454a;
+	position: relative;
+	color: #e6454a;
+}
+
+.name-box{
+	float: left;
+	margin-left: 20px;
+	font-size: 15px;
+	line-height: 50px;
+	
+}
+
 .btn-login-box{
 	padding: 20px 10px 0 10px;
 }
 .tips-box a{
-	color: red;
+	
 }
 .bg-success{
 	background-color: #3cc51f;
 }
 .btn-get-code{
-	color: #e6454a;
+	font-size: 14px;
 }
-.btn-login{	
+.btn-login{
 	border: 1px solid #e6454a;
 	color: #e6454a;
+	font-size: 16px;
+}
+.weui-btn_plain-primary:not(.weui-btn_plain-disabled):active{
+	border: 1px solid #ddd;
+	color: #ddd;
 }

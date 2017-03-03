@@ -58,4 +58,9 @@
 .logout-box button{
 	border: 1px solid #e6454a;
 	color: #e6454a;
+	font-size: 16px;
+}
+.weui-btn_plain-primary:not(.weui-btn_plain-disabled):active{
+	border: 1px solid #ddd;
+	color: #ddd;
 }
