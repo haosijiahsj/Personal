@@ -26,17 +26,17 @@ public class MenuUtil {
 	
 	public MenuButton createbutton1() {
 		MenuButton menuButton = new MenuButton();
-		menuButton.setName("菜单一");
+		menuButton.setName("多维");
 
 		MenuButton mb1 = new MenuButton();
 		mb1.setType(EventType.view);
-		mb1.setName("登录");
-		mb1.setUrl("http://hhpnhsj.imwork.net/duowei/login.jsp");
+		mb1.setName("预定");
+		mb1.setUrl("http://hhpnhsj.imwork.net/duowei/index.jsp");
 
 		MenuButton mb2 = new MenuButton();
 		mb2.setType(EventType.view);
-		mb2.setName("菜单一按钮二");
-		mb2.setUrl("http://xx");
+		mb2.setName("个人中心");
+		mb2.setUrl("http://hhpnhsj.imwork.net/duowei/index.jsp#!3");
 
 		List<MenuButton> buttons = new ArrayList<MenuButton>();
 		buttons.add(mb1);

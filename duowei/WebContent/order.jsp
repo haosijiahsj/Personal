@@ -11,27 +11,20 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/order.css">
 </head>
 <body>
-
-<div class="container">
-	<div class="weui-tab">
-    <div class="weui-navbar">
-        <div class="weui-navbar__item weui-bar__item_on">
-           	 进行中
-        </div>
-        <div class="weui-navbar__item">
-           	 已完成
-        </div>
-        <div class="weui-navbar__item">
-        	待评价
-        </div>
-        <div class="weui-navbar__item">
-        	所有订单
-        </div>
-    </div>
-    <div class="weui-tab__panel">
-
-    </div>
+<div class="header">
+	<div class="header-nav-box">
+	<div class="nav-box">
+		<ul class="nav-list">
+			<li class="nav-item nav-item-on">进行中</li>
+			<li class="nav-item">已完成</li>
+			<li class="nav-item">待评价</li>
+			<li class="nav-item">全部订单</li>
+		</ul>
+	</div>
+	</div>
 </div>
+<div class="container">
+	
 </div>
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/swiper.min.js"></script>

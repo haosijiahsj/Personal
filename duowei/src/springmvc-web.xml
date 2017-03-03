@@ -15,5 +15,5 @@
 	<context:component-scan base-package="com.xhu.controller"></context:component-scan>
 	<!-- 开启ResponseBody响应回json数据 -->
 	<mvc:annotation-driven/>
-           
+
 </beans>
