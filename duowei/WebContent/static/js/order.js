@@ -4,5 +4,9 @@ $(document).ready(function(){
 	FastClick.attach(document.body);
 	//加载swiper
 	
+	$(".nav-item").click(function(){
+		$(this).addClass("nav-item-on");
+		$(this).siblings().removeClass("nav-item-on");
+	});
 
 });
