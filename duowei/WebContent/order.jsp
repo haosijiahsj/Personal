@@ -11,8 +11,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/order.css">
 </head>
 <body>
-
-<div class="container">
+<div class="header">
 	<div class="header-nav-box">
 	<div class="nav-box">
 		<ul class="nav-list">
@@ -22,7 +21,10 @@
 			<li class="nav-item">全部订单</li>
 		</ul>
 	</div>
+	</div>
 </div>
+<div class="container">
+	
 </div>
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/swiper.min.js"></script>

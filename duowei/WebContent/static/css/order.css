@@ -2,12 +2,12 @@
 
 /*#e6454a此颜色保留 */
 .header-nav-box {
-	position: fixed;
+	/* position: fixed;
 	top: 0;
-	left: 0;
+	left: 0; */
 	width: 100%;
 	height: 40px;
-	border: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
 
 .nav-box {
