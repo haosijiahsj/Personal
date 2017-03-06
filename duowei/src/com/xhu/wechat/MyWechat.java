@@ -50,6 +50,8 @@ public class MyWechat extends WechatSupport {
 	protected void onText() {
 		String content = super.wechatRequest.getContent().trim();
 		System.out.println(content);
+		String openId =  super.wechatRequest.getFromUserName();
+		System.out.println(openId);
 		responseText("您好，欢迎使用多维家政服务平台微信公众号");
 	}
 

@@ -17,9 +17,9 @@
 	<!-- 滑动组件 -->
 	<div class="swiper-container">
   		<div class="swiper-wrapper">
-    		<div class="swiper-slide blue-slide">slider1</div>
-    		<div class="swiper-slide red-slide">slider2</div>
-    		<div class="swiper-slide orange-slide">slider3</div>
+    		<div class="swiper-slide blue-slide">滑块1</div>
+    		<div class="swiper-slide red-slide">滑块2</div>
+    		<div class="swiper-slide orange-slide">滑块3</div>
   		</div>
   		<div class="swiper-pagination"></div>
     
@@ -32,6 +32,9 @@
 </div>
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/swiper.min.js"></script>
+<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=5EMBZ-PHB3I-KMTG2-5FUEI-K4XZK-PTFBD"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/duowei.js"></script>
+
 </body>
 </html>
