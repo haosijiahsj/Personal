@@ -1,10 +1,8 @@
 package com.xhu.wechat;
 
-import java.security.DigestException;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
 
 import org.sword.wechat4j.token.TokenProxy;
 
@@ -32,6 +30,12 @@ public class WechatUtil {
 //		System.out.println("timestamp:"+ timestamp);
 //		System.out.println("noncestr:"+ noncestr);
 //		System.out.println("signature:"+ signature);
+		
+		return map;
+	}
+	
+	public static Map<String, String> getUsersInfo(){
+		Map<String, String> map = new HashMap<String, String>();
 		
 		return map;
 	}
