@@ -6,8 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <title></title>
-<%-- <link rel="stylesheet" href="${pageContext.request.contextPath}/static/weui/css/weui.min.css"> --%>
-<link rel="stylesheet" href="${pageContext.request.contextPath}/static/lib/swiper.min.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/order.css">
 </head>
 <body>
@@ -24,10 +22,9 @@
 	</div>
 </div>
 <div class="container">
-	
+	<div class="order-box" style="width: 99%;height: 500px; border: 1px solid red;"></div>
 </div>
-
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/swiper.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/order.js"></script>
 </body>
 </html>

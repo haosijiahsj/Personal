@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+.vip-card-box{
+	padding: 16px 14px 0 14px;
+}
+
+.card-box{
+	height: 100px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px 15px 0 15px;
+}
+.one-line-box{
+	display: block;
+	height: 25px;
+}
+.card-name-box{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+}
+.price-box{
+	float:right;
+	color: #e6454a;
+	font-size: 14px;
+}
+.two-line-box{
+	display: block;
+	margin-top: 3px;
+	color: #e6454a;
+	font-size: 14px;
+}
+.three-line-box{
+	margin-top: 8px;
+}
+.detail-box{
+	float: left;
+}
+.buy-box{
+	float: right;
+}
