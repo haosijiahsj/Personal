@@ -46,7 +46,6 @@
     </div>
 </div>
 </div>
-<div class="weui-cells__tips">请在上方输入相关信息以登录</div>
 <div class="btn-login-box">
 	<button class="weui-btn weui-btn_plain-primary btn-login">绑定手机号以登录</button>
 </div>
