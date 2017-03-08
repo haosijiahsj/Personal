@@ -36,11 +36,11 @@
 }
 
 .weui-cell__bd p{
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .ft-tips-box{
-	font-size: 12px;
+	font-size: 14px;
 }
 .ft-tips-num-box{
 	color: #e6454a;
@@ -52,7 +52,7 @@
 	width: 30px;
 }
 .weui-cell__hd .fa{
-	font-size: 14px;
+	font-size: 15px;
 	color: #e6454a;
 }
 .logout-box button{

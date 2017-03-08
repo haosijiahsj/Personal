@@ -53,7 +53,7 @@
 			</div>
 			
 			<div class="weui-cells">
-				<a class="weui-cell weui-cell_access" href="javascript:;">
+				<a class="weui-cell weui-cell_access" href="tel:028-9876543">
 					<div class="weui-cell__hd">
 						<i class="fa fa-volume-control-phone"></i>
 					</div>

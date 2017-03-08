@@ -60,6 +60,11 @@ public class MyUtils {
         return sb.toString();
 	}
 	
+	/**
+	 * 生成指定长度的字符串
+	 * @param length
+	 * @return
+	 */
 	public static String getRandomString(int length){
 		StringBuffer sb = new StringBuffer();
 		String str="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";		
@@ -71,6 +76,11 @@ public class MyUtils {
 		return sb.toString();
 	}
 	
+	/**
+	 * SHA-1加密算法
+	 * @param decript
+	 * @return
+	 */
 	public static String SHA1(String decript) {
 		try {
 			MessageDigest digest = java.security.MessageDigest.getInstance("SHA-1");
