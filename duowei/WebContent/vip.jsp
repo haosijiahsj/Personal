@@ -31,10 +31,42 @@
 			
 			<div class="card-box">
 				<div class="one-line-box">
-					<div class="card-name-box">500元体验卡</div>
-					<div class="price-box">￥500</div>
+					<div class="card-name-box">200元青铜卡</div>
+					<div class="price-box">￥200</div>
 				</div>
-				<div class="two-line-box">简单介绍该卡</div>
+				<div class="two-line-box">有一些小的优惠。。。</div>
+				<div class="three-line-box">
+					<div class="detail-box">
+						<a class="weui-cell_link" href="javascript:;">查看详情></a>
+					</div>
+					<div class="buy-box">
+						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">购买</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="card-box">
+				<div class="one-line-box">
+					<div class="card-name-box">1000元铂金卡</div>
+					<div class="price-box">￥1000</div>
+				</div>
+				<div class="two-line-box">级别很高的优惠。。。</div>
+				<div class="three-line-box">
+					<div class="detail-box">
+						<a class="weui-cell_link" href="javascript:;">查看详情></a>
+					</div>
+					<div class="buy-box">
+						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">购买</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="card-box">
+				<div class="one-line-box">
+					<div class="card-name-box">5000元砖石卡</div>
+					<div class="price-box">￥5000</div>
+				</div>
+				<div class="two-line-box">至尊优惠。。。</div>
 				<div class="three-line-box">
 					<div class="detail-box">
 						<a class="weui-cell_link" href="javascript:;">查看详情></a>

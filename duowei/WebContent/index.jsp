@@ -19,18 +19,6 @@
 
 <div class="container">
 	<div class="cont-box"></div>
-	<%-- <div class="nav-tab item-on">
-		<jsp:include page="duowei.jsp"></jsp:include>
-	</div>
-	<div class="nav-tab item-off">
-		<jsp:include page="order.jsp"></jsp:include>
-	</div>
-	<div class="nav-tab item-off">
-		<jsp:include page="vip.jsp"></jsp:include>
-	</div>
-	<div class="nav-tab item-off">
-		<jsp:include page="personal.jsp"></jsp:include>
-	</div> --%>
 </div>
 
 <!-- 使用一个footer手动设置该tabbar位置为fixed -->
