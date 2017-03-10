@@ -1,22 +1,65 @@
 @CHARSET "UTF-8";
 
 /*#e6454a此颜色保留 */
-.swiper-container{
+.banner-box{
+	position: relative;
+}
+.banner-box .swiper-container{
 	width: 100%;
+	height: 140px;
+}
+.city-box{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	color: white;
+	font-size: 14px;
+	z-index: 99;
+	cursor: pointer;
+}
+
+.banner-box .swiper-slide img {
+	width: 100%;
+	height: 140px;
+}
+/*支持0.5？？？ unbelievable...*/
+.categroy-box{
+	height: 180px;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.categroy-item-box{
+	width: 25%;
 	height: 90px;
-}
-.blue-slide {
-	background: #4390EE;
-}
-.red-slide {
-	background: #CA4040;
-}
-.orange-slide {
-	background: #FF8604;
-}
-.swiper-slide {
-	line-height: 90px;
-	color: #fff;
-	font-size: 20px;
 	text-align: center;
+	float: left;
 }
+.categroy-item-box span{
+	/* border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd; */
+	font-size: 12px;
+}
+.icon-box{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 45px;
+	height: 45px;
+}
+.icon-box img{
+	width: 45px;
+	height: 45px;
+}
+
+.ad-box{
+	margin-top: 5px;
+}
+.ad-box .swiper-container{
+	width: 100%;
+	height: 80px;
+}
+
+.ad-box .swiper-slide img {
+	width: 100%;
+	height: 80px;
+}
+

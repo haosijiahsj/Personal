@@ -41,21 +41,22 @@ function init(){
 
 //切换页面
 function tabPage(val){
+	var host = location.host;
 	switch(val){
 	case '0': 
-		loadPage("duowei.jsp");
+		loadPage("h5/duowei.jsp");
 		break;
 	case '1': 
-		loadPage("order.jsp");
+		loadPage("h5/order.jsp");
 		break;
 	case '2': 
-		loadPage("vip.jsp");
+		loadPage("h5/vip.jsp");
 		break;
 	case '3': 
-		loadPage("personal.jsp");
+		loadPage("h5/personal.jsp");
 		break;
 	default :
-		loadPage("duowei.jsp");
+		loadPage("h5/duowei.jsp");
 		location.hash = "#!0";
 		break;
 	}

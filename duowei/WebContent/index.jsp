@@ -54,6 +54,7 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/fastclick.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/weui/js/weui.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=903LlxiplU7IO0BqqmaGmALq31vgiyEt"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/index.js"></script>
 
 </body>

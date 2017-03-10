@@ -79,7 +79,7 @@
 			
 			<div class="card-box">
 				<div class="one-line-box">
-					<div class="card-name-box">1000元帝皇卡</div>
+					<div class="card-name-box">10000元帝皇卡</div>
 					<div class="price-box">￥10000</div>
 				</div>
 				<div class="two-line-box">帝王般的优惠。。。</div>

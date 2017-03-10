@@ -15,24 +15,75 @@
 <div class="container">
 
 	<!-- 滑动组件 -->
-	<div class="swiper-container">
-  		<div class="swiper-wrapper">
-    		<div class="swiper-slide blue-slide">滑块1</div>
-    		<div class="swiper-slide red-slide">滑块2</div>
-    		<div class="swiper-slide orange-slide">滑块3</div>
-  		</div>
-  		<div class="swiper-pagination"></div>
+	<div class="banner-box">
+		<div class="swiper-container">
+  			<div class="swiper-wrapper">
+    			<div class="swiper-slide blue-slide"></div>
+    			<div class="swiper-slide red-slide"></div>
+    			<div class="swiper-slide orange-slide"></div>
+  			</div>
+  			<div class="swiper-pagination"></div>
     
     	<!-- 如果需要导航按钮 -->
     	<!-- <div class="swiper-button-prev"></div>
     	<div class="swiper-button-next"></div> -->
     	<!-- 如果需要滚动条 -->
     	<!-- <div class="swiper-scrollbar"></div> -->
+		</div>
+	</div>
+	<div class="categroy-box">
+	<div class="weui-flex">
+	
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/1.png"></div>
+    		<span>加油卡充值</span>
+    	</div>
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/2.png"></div>
+    		<span>健康</span>
+    	</div>
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/3.png"></div>
+    		<span>搬家</span>
+    	</div>
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/5.png"></div>
+    		<span>洗护</span>
+    	</div>
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/6.png"></div>
+    		<span>闲置二手</span>
+    	</div>
+    	
+	</div>
+	<div class="weui-flex">
+	
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/7.png"></div>
+    		<span>运动健身</span>
+    	</div>
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/8.png"></div>
+    		<span>服务名称</span>
+    	</div>
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/1.png"></div>
+    		<span>某服务</span>
+    	</div>
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/3.png"></div>
+    		<span>服务</span>
+    	</div>
+    	<div class="weui-flex__item">
+    		<div class="icon-box"><img src="static/img/4.png"></div>
+    		<span>全部服务</span>
+    	</div>
+    	
+	</div>
 	</div>
 </div>
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/swiper.min.js"></script>
-<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=5EMBZ-PHB3I-KMTG2-5FUEI-K4XZK-PTFBD"></script>
 <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/duowei.js"></script>
 
