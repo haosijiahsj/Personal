@@ -155,7 +155,6 @@
 		</div>
 		
 	</div>
-	
 </div>
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/swiper.min.js"></script>

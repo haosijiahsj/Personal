@@ -1,6 +1,10 @@
 @CHARSET "UTF-8";
 
 /*#e6454a此颜色保留 */
+.container{
+	/* 在主页body里面设置的padding-bottom: 100px 无效？？？在此加一个 */
+	margin-bottom: 150px;
+}
 .banner-box{
 	position: relative;
 }

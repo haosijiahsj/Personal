@@ -1,5 +1,9 @@
 @CHARSET "UTF-8";
 
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	padding-bottom: 100px;
 	/* 解决底部导航栏遮住body内容的问题 */
