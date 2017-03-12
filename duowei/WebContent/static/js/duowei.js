@@ -35,14 +35,14 @@ $(document).ready(function(){
 	},{enableHighAccuracy: true});
 	
 	//点击城市绑定事件
-	$(".city-box").click(function(){
-		alert("手动选择城市");
+	$(".city-box").click(function() {
+		
 	});
 	
 });
 
 function useJssdk(){
-	//使用jssdk开始
+	// 使用jssdk开始
 	var url = location.href.split('#')[0];
 	$.get("forUseJssdk.do",{"url": url} , function(data){
 		wx.config({

@@ -5,7 +5,7 @@
 
 .card-box{
 	height: 100px;
-	border: 1px solid #ddd;
+	border: 0.5px solid rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 	padding: 10px 15px 0 15px;
 	margin-bottom: 15px;
@@ -38,4 +38,27 @@
 }
 .buy-box{
 	float: right;
+}
+.bottom-box{
+	margin-top: 50px;
+	text-align: center;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+.bottom-text-box{
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.2);
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: white;	
+}
+
+.bottom-text-box:before{
+	content: "\00A0\00A0\00A0";
+}
+.bottom-text-box:after{
+	content: "\00A0\00A0\00A0";
 }

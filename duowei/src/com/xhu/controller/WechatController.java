@@ -16,6 +16,11 @@ import com.xhu.wechat.WechatUtil;
 @Controller
 public class WechatController {
 	
+	/**
+	 * 获取用户发送的消息，并回复
+	 * @param request
+	 * @param response
+	 */
 	@RequestMapping("/wechat.do")
 	public void wechatValidate(HttpServletRequest request, HttpServletResponse response){
 		MyWechat myWechat = new MyWechat(request);
@@ -27,6 +32,11 @@ public class WechatController {
 		}
 	}
 	
+	/**
+	 * 计算jssdk的签名，以调用jssdk
+	 * @param url
+	 * @return
+	 */
 	@RequestMapping("/forUseJssdk.do")
 	@ResponseBody
 	public Map<String, String> forUseJssdk(String url){

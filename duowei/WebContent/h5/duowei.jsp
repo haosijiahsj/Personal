@@ -45,35 +45,48 @@
     		<span>健康</span>
     	</div>
     	</a>
+    	<a href="">
     	<div class="categroy-item-box">
     		<div class="icon-box"><img src="static/img/1.png"></div>
     		<span>加油卡充值</span>
     	</div>
+    	</a>
+    	<a href="">
     	<div class="categroy-item-box">
     		<div class="icon-box"><img src="static/img/3.png"></div>
     		<span>搬家</span>
     	</div>
+    	</a>
+    	<a href="">
     	<div class="categroy-item-box">
     		<div class="icon-box"><img src="static/img/5.png"></div>
     		<span>鲜花</span>
-    	</div>    	
-    	
+    	</div>   
+    	</a> 	
+    	<a href="">
 		<div class="categroy-item-box">
     		<div class="icon-box"><img src="static/img/6.png"></div>
     		<span>洗护</span>
     	</div>
+    	</a>
+    	<a href="">
     	<div class="categroy-item-box">
     		<div class="icon-box"><img src="static/img/8.png"></div>
     		<span>运动健身</span>
     	</div>
+    	</a>
+    	<a href="">
     	<div class="categroy-item-box">
     		<div class="icon-box"><img src="static/img/7.png"></div>
     		<span>闲置二手</span>
     	</div>
+    	</a>
+    	<a href="">
     	<div class="categroy-item-box">
     		<div class="icon-box"><img src="static/img/4.png"></div>
     		<span>全部服务</span>
     	</div>
+    	</a>
 	</div>
 	
 	<!-- 打广告的box -->
@@ -89,6 +102,58 @@
   			</div>
   			<div class="swiper-pagination"></div>
 		</div>
+	</div>
+	
+	<!-- 大块div -->
+	<div class="service-box">
+		<div class="service-item-box">
+		<a href="a.html">
+			<div class="service-text-box">
+				<p class="service-name">深度保洁</p>
+				<p class="service-detail">擦得很干净的</p>
+			</div>
+			<div class="service-icon-box">
+				<img alt="" src="static/img/8.png">
+			</div>
+		</a>
+		</div>
+		
+		<div class="service-item-box">
+		<a href="b.html">
+			<div class="service-text-box">
+				<p class="service-name">深度保洁</p>
+				<p class="service-detail">擦得很干净的</p>
+			</div>
+			<div class="service-icon-box">
+				<img alt="" src="static/img/7.png">
+			</div>
+		</a>
+		</div>
+		
+		<div class="service-item-box">
+		<a href="c.html">
+			<div class="service-text-box">
+				<p class="service-name">深度保洁</p>
+				<p class="service-detail">擦得很干净的</p>
+			</div>
+			<div class="service-icon-box">
+				<img alt="" src="static/img/5.png">
+			</div>
+		</a>
+		</div>
+		
+		<div class="service-item-box">
+		<a href="d.html">	
+			<div class="service-text-box">
+				<p class="service-name">深度保洁</p>
+				<p class="service-detail">擦得很干净的</p>
+			</div>
+			<div class="service-icon-box">
+				<img alt="" src="static/img/3.png">
+			</div>
+		</a>
+		</div>
+		
 	</div>
 	
 </div>

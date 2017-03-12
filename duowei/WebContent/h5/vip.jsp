@@ -40,7 +40,7 @@
 						<a class="weui-cell_link" href="javascript:;">查看详情></a>
 					</div>
 					<div class="buy-box">
-						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">购买</a>
+						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">立即购买</a>
 					</div>
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 						<a class="weui-cell_link" href="javascript:;">查看详情></a>
 					</div>
 					<div class="buy-box">
-						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">购买</a>
+						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">立即购买</a>
 					</div>
 				</div>
 			</div>
@@ -72,7 +72,7 @@
 						<a class="weui-cell_link" href="javascript:;">查看详情></a>
 					</div>
 					<div class="buy-box">
-						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">购买</a>
+						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">立即购买</a>
 					</div>
 				</div>
 			</div>
@@ -88,13 +88,15 @@
 						<a class="weui-cell_link" href="javascript:;">查看详情></a>
 					</div>
 					<div class="buy-box">
-						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">购买</a>
+						<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">立即购买</a>
 					</div>
 				</div>
 			</div>
 			
 		</div>
-
+		<div class="bottom-box">
+			<div class="bottom-text-box">这是我的底线</div>
+		</div>
 	</div>
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/vip.js"></script>

@@ -50,8 +50,7 @@
 	<button class="weui-btn weui-btn_plain-primary btn-login">绑定手机号以登录</button>
 </div>
 <div class="weui-cells__tips tips-box">
-	点击登录表示您已同意
-	<a href="javascript:void(0)" class="weui-cell_link a-sys-use">《平台使用协议》</a>
+	
 </div>
 </div>
 <!-- container结束 -->

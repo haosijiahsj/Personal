@@ -22,7 +22,7 @@
 	</div>
 </div>
 <div class="container">
-	<div class="order-box" style="width: 99%;height: 500px; border: 1px solid red;"></div>
+	<div class="order-box" style="width: 99%;height: 500px; border: 0.5px solid rgba(0, 0, 0, 0.2);"></div>
 </div>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/order.js"></script>

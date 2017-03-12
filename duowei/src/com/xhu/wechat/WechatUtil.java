@@ -1,9 +1,13 @@
 package com.xhu.wechat;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-
+import org.sword.wechat4j.menu.Menu;
+import org.sword.wechat4j.menu.MenuButton;
+import org.sword.wechat4j.menu.MenuManager;
 import org.sword.wechat4j.token.TokenProxy;
 
 import com.xhu.utils.MyUtils;
@@ -39,4 +43,21 @@ public class WechatUtil {
 		
 		return map;
 	}
+	
+	/**
+	 * 生成微信菜单
+	 * @throws Exception
+	 */
+	public void createMenu() throws Exception {
+		MenuManager menuManager = new MenuManager();
+		Menu menu = new Menu();
+
+		List<MenuButton> buttons = new ArrayList<MenuButton>();
+		
+		menu.setButton(buttons);
+
+		menuManager.create(menu);
+	}
+	
+	
 }
