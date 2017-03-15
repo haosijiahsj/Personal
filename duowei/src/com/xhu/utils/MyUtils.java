@@ -1,5 +1,6 @@
 package com.xhu.utils;
 
+import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.text.DateFormat;
@@ -102,6 +103,21 @@ public class MyUtils {
 			e.printStackTrace();
 		}
 		return "";
+	}
+	
+	/**
+	 * 将编码为ISO8859_1转换为UTF-8，应该可以解决一部分乱码问题
+	 * @param str
+	 * @return
+	 */
+	public static String ecodingChange(String str){
+		String newStr = "";
+		try {
+			newStr = new String(str.getBytes("ISO8859_1"), "UTF-8");
+		} catch (UnsupportedEncodingException e) {
+			newStr = str;
+		}
+		return newStr;
 	}
 	
 	

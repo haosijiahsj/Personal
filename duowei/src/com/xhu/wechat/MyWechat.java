@@ -1,8 +1,15 @@
 package com.xhu.wechat;
 
+import java.io.UnsupportedEncodingException;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.sword.wechat4j.WechatSupport;
+import org.sword.wechat4j.user.LanguageType;
+import org.sword.wechat4j.user.User;
+import org.sword.wechat4j.user.UserManager;
+
+import com.xhu.utils.MyUtils;
 
 public class MyWechat extends WechatSupport {
 
@@ -12,8 +19,7 @@ public class MyWechat extends WechatSupport {
 
 	@Override
 	protected void click() {
-		// TODO Auto-generated method stub
-		
+			
 	}
 
 	@Override
@@ -111,8 +117,7 @@ public class MyWechat extends WechatSupport {
 
 	@Override
 	protected void subscribe() {
-		// TODO Auto-generated method stub
-		
+		responseText("你来啦。。。");		
 	}
 
 	@Override
@@ -126,11 +131,19 @@ public class MyWechat extends WechatSupport {
 		// TODO Auto-generated method stub
 		
 	}
-
+	
+	/**
+	 * 菜单点击后跳转到页面的事件
+	 */
 	@Override
 	protected void view() {
-		// TODO Auto-generated method stub
-		
+		//获取用户的昵称和头像
+		String openId = this.wechatRequest.getFromUserName();
+		UserManager um = new UserManager();
+		User user = um.getUserInfo(openId, LanguageType.zh_CN);
+		String nickname = MyUtils.ecodingChange(user.getNickName());
+		String headImgUrl = user.getHeadimgUrl();
+		System.out.println("昵称：" + nickname+" 头像路径：" + headImgUrl);
 	}
 
 	@Override
