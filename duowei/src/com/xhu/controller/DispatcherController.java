@@ -42,4 +42,11 @@ public class DispatcherController {
 		return mav;
 	}
 	
+	@RequestMapping("/login")
+	public ModelAndView toLogin(){
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("login");
+		return mav;
+	}
+	
 }

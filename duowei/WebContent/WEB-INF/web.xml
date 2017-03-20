@@ -58,6 +58,13 @@
     <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
   </listener>
   
+  <!-- <servlet-mapping>  
+  	<servlet-name>default</servlet-name>  
+  	<url-pattern>*.js</url-pattern>  
+  	<url-pattern>*.css</url-pattern>  
+  	<url-pattern>/static/*</url-pattern>  
+  </servlet-mapping> -->
+  
   <!-- 配置微信过滤器，不是微信浏览器将不能打开任何页面 -->
   <filter>
   	<filter-name>wechatFilter</filter-name>
