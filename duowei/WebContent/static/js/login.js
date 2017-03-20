@@ -37,8 +37,8 @@ $(document).ready(function(){
 			weui.topTips("请填写验证码", 2000);
 			return;
 		}
-		
-		weui.alert("登录");
+		//swal('Good job!', 'You clicked the button!', 'success');
+		//weui.alert("登录");
 		//使用ajax调用后台controller登录代码
 		
 	});

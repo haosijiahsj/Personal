@@ -9,6 +9,7 @@
 <!-- 引入css文件开始 -->
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/weui/css/weui.min.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/index.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/static/lib/sweetalert2.min.css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
@@ -53,6 +54,7 @@
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/jquery.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/fastclick.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/lib/sweetalert2.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/weui/js/weui.min.js"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=903LlxiplU7IO0BqqmaGmALq31vgiyEt"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/index.js"></script>

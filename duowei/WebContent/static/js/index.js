@@ -4,6 +4,7 @@ $(document).ready(function(){
 	FastClick.attach(document.body);
 	//初始化页面
 	init();
+	swal('Good job!', 'You clicked the button!', 'success');
 	//用于切换主页内容	
 	$(".weui-tabbar__item").each(function(){
 		$(this).click(function(){
