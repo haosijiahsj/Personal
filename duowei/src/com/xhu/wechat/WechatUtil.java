@@ -5,11 +5,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.sword.wechat4j.exception.WeChatException;
 import org.sword.wechat4j.menu.Menu;
 import org.sword.wechat4j.menu.MenuButton;
 import org.sword.wechat4j.menu.MenuManager;
 import org.sword.wechat4j.token.TokenProxy;
 
+import com.alibaba.fastjson.JSONObject;
 import com.xhu.utils.MyUtils;
 
 public class WechatUtil {
@@ -46,18 +48,15 @@ public class WechatUtil {
 	
 	/**
 	 * 生成微信菜单
-	 * @throws Exception
+	 * @throws WeChatException 
 	 */
-	public void createMenu() throws Exception {
+	public static void createMenu(String menuJson) throws WeChatException {
 		MenuManager menuManager = new MenuManager();
-		Menu menu = new Menu();
-
 		List<MenuButton> buttons = new ArrayList<MenuButton>();
-		
+		JSONObject menuObject = JSONObject.parseObject(menuJson);
+		Menu menu = menuObject.getObject("menu", Menu.class);
 		menu.setButton(buttons);
-
 		menuManager.create(menu);
 	}
-	
 	
 }

@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.sword.wechat4j.exception.WeChatException;
 
 import com.xhu.wechat.MyWechat;
 import com.xhu.wechat.WechatUtil;
@@ -37,11 +38,26 @@ public class WechatController {
 	 * @param url
 	 * @return
 	 */
-	@RequestMapping("/forUseJssdk.do")
+	@RequestMapping("/forUseJssdk")
 	@ResponseBody
 	public Map<String, String> forUseJssdk(String url){
 		return WechatUtil.getSign(url);
 	}
 	
+	/**
+	 * 创建一个微信菜单
+	 * @param menuJson
+	 * @return
+	 */
+	@RequestMapping("/createWechatMenu")
+	@ResponseBody
+	public String createWechatMenu(String menuJson){
+		try {
+			WechatUtil.createMenu(menuJson);
+		} catch (WeChatException e) {
+			return "创建失败："+e.getMessage();
+		}
+		return "创建成功";
+	}
 	
 }
