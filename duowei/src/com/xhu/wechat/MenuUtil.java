@@ -31,12 +31,12 @@ public class MenuUtil {
 		MenuButton mb1 = new MenuButton();
 		mb1.setType(EventType.view);
 		mb1.setName("预定");
-		mb1.setUrl("http://hhpnhsj.imwork.net/duowei/index.jsp");
+		mb1.setUrl("http://hhpnhsj.imwork.net/index");
 
 		MenuButton mb2 = new MenuButton();
 		mb2.setType(EventType.view);
 		mb2.setName("个人中心");
-		mb2.setUrl("http://hhpnhsj.imwork.net/duowei/index.jsp#!3");
+		mb2.setUrl("http://hhpnhsj.imwork.net/index#!3");
 
 		List<MenuButton> buttons = new ArrayList<MenuButton>();
 		buttons.add(mb1);
@@ -54,21 +54,15 @@ public class MenuUtil {
 	 */
 	public MenuButton createbutton2() throws Exception {
 		MenuButton menuButton = new MenuButton();
-		menuButton.setName("菜单二");
+		menuButton.setName("账户");
 
 		MenuButton mb1 = new MenuButton();
 		mb1.setType(EventType.view);
-		mb1.setName("菜单二按钮一");
-		mb1.setUrl("http://xx");
-
-		MenuButton mb2 = new MenuButton();
-		mb2.setType(EventType.view);
-		mb2.setName("菜单二按钮二");
-		mb2.setUrl("http://xx");
+		mb1.setName("登录");
+		mb1.setUrl("http://hhpnhsj.imwork.net/login");
 
 		List<MenuButton> buttons = new ArrayList<MenuButton>();
 		buttons.add(mb1);
-		buttons.add(mb2);
 
 		menuButton.setSubButton(buttons);
 		return menuButton;

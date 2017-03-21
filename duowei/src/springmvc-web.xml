@@ -16,7 +16,8 @@
 	<!-- 开启ResponseBody响应回json数据 -->
 	<mvc:annotation-driven/>
 	<!-- 不拦截静态资源 -->
-	<!-- <mvc:default-servlet-handler /> -->
+	<!-- <mvc:resources location="/static/**" mapping="/static/" />
+	<mvc:default-servlet-handler /> -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<!-- 前缀 -->
         <property name="prefix" value="/" />

@@ -21,7 +21,7 @@ public class WechatController {
 	 * @param request
 	 * @param response
 	 */
-	@RequestMapping("/wechat.do")
+	@RequestMapping("/wechat")
 	public void wechatValidate(HttpServletRequest request, HttpServletResponse response){
 		MyWechat myWechat = new MyWechat(request);
 		String result = myWechat.execute();

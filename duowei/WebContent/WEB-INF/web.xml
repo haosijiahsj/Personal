@@ -23,7 +23,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>springmvc</servlet-name>
-    <url-pattern>*.do</url-pattern>
+    <url-pattern>/</url-pattern>
   </servlet-mapping>
   <context-param>
     <param-name>contextConfigLocation</param-name>
@@ -58,12 +58,21 @@
     <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
   </listener>
   
-  <!-- <servlet-mapping>  
-  	<servlet-name>default</servlet-name>  
-  	<url-pattern>*.js</url-pattern>  
-  	<url-pattern>*.css</url-pattern>  
-  	<url-pattern>/static/*</url-pattern>  
-  </servlet-mapping> -->
+  <!-- 不拦截静态资源 -->
+  <servlet-mapping>
+	<servlet-name>default</servlet-name>
+	<url-pattern>*.css</url-pattern>
+	<url-pattern>*.js</url-pattern>
+	<url-pattern>*.ico</url-pattern>
+	<url-pattern>*.gif</url-pattern>
+	<url-pattern>*.jpeg</url-pattern>
+	<url-pattern>*.bmp</url-pattern>
+	<url-pattern>*.psd</url-pattern>
+	<url-pattern>*.jpg</url-pattern>
+	<url-pattern>*.png</url-pattern>
+	<url-pattern>*.htm</url-pattern>
+	<url-pattern>*.html</url-pattern>
+  </servlet-mapping>
   
   <!-- 配置微信过滤器，不是微信浏览器将不能打开任何页面 -->
   <filter>
